@@ -1,19 +1,33 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import NavBar from './Components/NavBar.js'
 
 
 function App () {
 
-  let [clock, setClock] = useState("JINX");
+  let [title, setTitle] = useState("JINX");
 
 
   return (
-    <div className="App">
-        <h1>{clock}</h1>
-
+    <div>
+      <NavBar title={title}/>
+      <h2 style={style.header}>Your idea... we make it real.</h2>
     </div>
   );
 }
+
+
+
+
+let style = {
+  header: {
+    fontSize: '50px',
+    padding: '25px',
+    textAlign: 'center',
+  },
+
+}
+
+
 
 export default App;
