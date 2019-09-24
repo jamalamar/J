@@ -24,7 +24,7 @@ function NavBar (props) {
   );
 }
 
-let style = {
+const style = {
 
   brand: {
     fontSize: '1.6rem',

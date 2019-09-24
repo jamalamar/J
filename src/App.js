@@ -9,7 +9,7 @@ function App () {
 
 
   return (
-    <div>
+    <div >
       <NavBar title={title}/>
       <h2 style={style.header}>Your idea... we make it real.</h2>
     </div>
@@ -19,7 +19,11 @@ function App () {
 
 
 
-let style = {
+const style = {
+  app: {
+    
+  },
+
   header: {
     fontSize: '50px',
     padding: '25px',
