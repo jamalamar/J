@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from 'react-router-dom';
 
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
@@ -10,13 +11,13 @@ function NavBar (props) {
   return (
     <div className="App">
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top">
-          <Navbar.Brand href="#home" style={style.brand}>{props.title}</Navbar.Brand>
+          <Navbar.Brand style={style.brand} as={Link} to='/' >{props.title}</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto" style={style.navItems}>
-              <Nav.Link href="#Work">Work</Nav.Link>
-              <Nav.Link href="#About">About</Nav.Link>
-              <Nav.Link href="#Contact" bg="light">Contact</Nav.Link>
+              <Nav.Link as={Link} to='/Work' >Work</Nav.Link>
+              <Nav.Link as={Link} to='/About' >About</Nav.Link>
+              <Nav.Link as={Link} to='/Contact' >Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
