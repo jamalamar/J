@@ -37,7 +37,6 @@ const style = {
   navItems: {
     letterSpacing: '0.394em',
     fontWeight: '602',
-    alignContent: 'end',
   },
 }
 
