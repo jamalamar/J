@@ -9,7 +9,7 @@ function Home () {
 	<div>
 	
 		<Jumbotron style={style.header}>
-		  <h1>Your idea... We make it real!</h1>
+		  <h1 style={style.h1}>Your idea... We make it real!</h1>
 		  <p>
 		    This is a simple hero unit, a simple jumbotron-style component for calling
 		    extra attention to featured content or information.
@@ -32,6 +32,15 @@ const style = {
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
+    textAlign: 'center',
+    fontWeight: '102',
+	lineHeight: '2',
+	padding: '15%',
+	fontSize: '30px',
+  },
+
+  h1: {
+  	fontSize: '60px',
   },
 }
 
