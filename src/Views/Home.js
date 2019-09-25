@@ -11,8 +11,8 @@ function Home () {
 		<Jumbotron style={style.header}>
 		  <h1 style={style.h1}>Your idea... We make it real!</h1>
 		  <p>
-		    This is a simple hero unit, a simple jumbotron-style component for calling
-		    extra attention to featured content or information.
+		    We are a digital product studio that transforms product ideas 
+		    into incredible products
 		  </p>
 		  <p>
 		    <Button variant="primary">Learn more</Button>
@@ -32,11 +32,12 @@ const style = {
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
+    backgroundColor: '#cccccc',
     textAlign: 'center',
     fontWeight: '102',
 	lineHeight: '2',
 	padding: '15%',
-	fontSize: '30px',
+	fontSize: '25px',
   },
 
   h1: {

@@ -6,7 +6,8 @@ import Work from './Views/Work'
 import About from './Views/About'
 import Contact from './Views/Contact'
 
-import NavBar from './Components/NavBar.js'
+import NavBar from './Components/NavBar'
+import Footer from './Components/Footer'
 
 
 function App () {
@@ -24,6 +25,8 @@ function App () {
         <Route path="/Work" component={Work} />
         <Route path="/About" component={About} />
         <Route path="/Contact" component={Contact} />
+
+        <Footer />
 
       </div>
     </Router>

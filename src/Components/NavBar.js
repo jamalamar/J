@@ -32,6 +32,7 @@ const style = {
     lineHeight: '1.1',
     letterSpacing: '0.091em',
     fontWeight: '1000',
+    fontSize: '36px'
   },
 
   navItems: {
