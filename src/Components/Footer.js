@@ -15,8 +15,8 @@ function Footer (){
 		      <div class="col-md-6 mt-md-0 mt-3">
 
 		        {/* Content */}
-		        <h5 class="text-uppercase">Footer Content</h5>
-		        <p>Here you can use rows and columns to organize your footer content.</p>
+		        <h5 class="text-uppercase">JinX</h5><h6>Digital Studio</h6>
+		        <p>All Rights Reserved.</p>
 
 		      </div>
 		      {/* Grid Column */}
@@ -90,7 +90,9 @@ function Footer (){
 const style = {
 	footer: {
 		backgroundColor: 'rgba(9,10,19,100%)',
-		color: 'white'
+		color: 'white',
+		borderRadius: '3px',
+		fontSize: '10px'
 	}
 }
 

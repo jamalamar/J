@@ -12,14 +12,14 @@ import Footer from './Components/Footer'
 
 function App () {
 
-  let [title, setTitle] = useState("JINX");
-
+  let [jinx, setJinx] = useState("JINX");
+  
 
   return (
     <Router>
       <div >
 
-        <NavBar title={title}/>
+        <NavBar jinx={jinx}/>
 
         <Route path="/" exact component={Home} />
         <Route path="/Work" component={Work} />
@@ -37,9 +37,6 @@ function App () {
 
 
 const style = {
-  app: {
-    
-  }
 
 }
 

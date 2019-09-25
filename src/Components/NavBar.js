@@ -11,7 +11,7 @@ function NavBar (props) {
   return (
     <div className="App">
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top">
-          <Navbar.Brand style={style.brand} as={Link} to='/' >{props.title}</Navbar.Brand>
+          <Navbar.Brand style={style.brand} as={Link} to='/' >{props.jinx}</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto" style={style.navItems}>
@@ -25,6 +25,7 @@ function NavBar (props) {
   );
 }
 
+
 const style = {
 
   brand: {
@@ -32,7 +33,7 @@ const style = {
     lineHeight: '1.1',
     letterSpacing: '0.091em',
     fontWeight: '1000',
-    fontSize: '36px'
+    fontSize: '36px',
   },
 
   navItems: {

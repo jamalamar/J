@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {Link} from 'react-router-dom';
 
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Button from 'react-bootstrap/Button'
@@ -15,7 +16,7 @@ function Home () {
 		    into incredible products
 		  </p>
 		  <p>
-		    <Button variant="primary">Learn more</Button>
+		    <Button variant="primary" as={Link} to='/About'>Learn more</Button>
 		  </p>
 		</Jumbotron>
 	
