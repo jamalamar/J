@@ -16,7 +16,7 @@ function Home () {
 		    into incredible products
 		  </p>
 		  <p>
-		    <Button variant="primary" as={Link} to='/About'>Learn more</Button>
+		    <Button variant="primary" as={Link} to='/Contact'>Let's Talk</Button>
 		  </p>
 		</Jumbotron>
 		
