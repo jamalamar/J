@@ -56,7 +56,7 @@ import Button from 'react-bootstrap/Button'
 		    <Form.Control as="textarea" rows="3" name="Message"/>
 		  </Form.Group>
 
-		  <Button variant="primary" type="submit" as={Link} to="/">
+		  <Button variant="primary" type="submit">
 		    Submit
 		  </Button>
 
