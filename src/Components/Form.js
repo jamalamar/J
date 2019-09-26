@@ -9,7 +9,7 @@ import Button from 'react-bootstrap/Button'
  	return(
  	
  	<div style={style.formContainer}>
-		<Form>
+		<Form name="JinxContactForm" method="post">
 
 			{/*Value set to the same of the Form on Index.html*/}
 		    <input type="hidden" name="form-name" value="JinxContactForm" />
