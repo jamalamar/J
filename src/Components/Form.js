@@ -8,73 +8,59 @@ import Button from 'react-bootstrap/Button'
  
  function ContactForm (){
  	return(
-			<NetlifyForm name='Jinx Contact Form'>
-			  {({ loading, error, success }) => (
-			    <div>
-			      {loading &&
-			        <div>Loading...</div>
-			      }
-			      {error &&
-			        <div>Your information was not sent. Please try again later.</div>
-			      }
-			      {success &&
-			        <div>Thank you for contacting us!</div>
-			      }
-			      {!loading && !success &&
-			      	<div style={style.formContainer}>
+ 	
+ 	<div style={style.formContainer}>
+		<Form style={style.form}>
 
-					    <Form style={style.form}>
-						 <Form.Group controlId="formName&LastName">
-						  <Row>
-						    <Col>
-							  <Form.Label>First Name</Form.Label>
-						      <Form.Control placeholder="Enter first name" />
-						    </Col>
-						    <Col>
-							  <Form.Label>Last Name</Form.Label>
-						      <Form.Control placeholder="Enter last name" />
-						    </Col>
-						  </Row>
-						 </Form.Group>
+			{/*Value set to the same of the Form on Index.html*/}
+		    <input type="hidden" name="form-name" value="JinxContactForm" />
 
-						 <Form.Group controlId="formPhone&Country">
-						  <Row>
-						    <Col>
-							  <Form.Label>Phone Number</Form.Label>
-						      <Form.Control placeholder="Enter number" />
-						    </Col>
-						    <Col>
-							  <Form.Label>Country</Form.Label>
-						      <Form.Control placeholder="Enter country" />
-						    </Col>
-						  </Row>
-						 </Form.Group>						 
+		 <Form.Group controlId="formName&LastName">
+		  <Row>
+		    <Col>
+			  <Form.Label>First Name</Form.Label>
+		      <Form.Control placeholder="Enter first name" name="FirstName"/>
+		    </Col>
+		    <Col>
+			  <Form.Label>Last Name</Form.Label>
+		      <Form.Control placeholder="Enter last name" name="LastName"/>
+		    </Col>
+		  </Row>
+		 </Form.Group>
 
-						  <Form.Group controlId="formBasicEmail">
-						    <Form.Label>Email Address</Form.Label>
-						    <Form.Control type="email" placeholder="Enter email" />
-						    <Form.Text className="text-muted">
-						      We'll never share your email with anyone else.
-						    </Form.Text>
-						  </Form.Group>
+		 <Form.Group controlId="formPhone&Country">
+		  <Row>
+		    <Col>
+			  <Form.Label>Phone Number</Form.Label>
+		      <Form.Control placeholder="Enter number" name="Phone"/>
+		    </Col>
+		    <Col>
+			  <Form.Label>Country</Form.Label>
+		      <Form.Control placeholder="Enter country" name="Country"/>
+		    </Col>
+		  </Row>
+		 </Form.Group>						 
+
+		  <Form.Group controlId="formBasicEmail">
+		    <Form.Label>Email Address</Form.Label>
+		    <Form.Control type="email" placeholder="Enter email" name="Email"/>
+		    <Form.Text className="text-muted">
+		      We'll never share your email with anyone else.
+		    </Form.Text>
+		  </Form.Group>
 
 
-						  <Form.Group controlId="exampleForm.ControlTextarea1">
-						    <Form.Label>Message</Form.Label>
-						    <Form.Control as="textarea" rows="3" />
-						  </Form.Group>
+		  <Form.Group controlId="exampleForm.ControlTextarea1">
+		    <Form.Label>Message</Form.Label>
+		    <Form.Control as="textarea" rows="3" name="Message"/>
+		  </Form.Group>
 
-						  <Button variant="primary" type="submit">
-						    Submit
-						  </Button>
-						  
-						</Form>
+		  <Button variant="primary" type="submit">
+		    Submit
+		  </Button>
 
-					</div>
-			      }
-			    </div>
-			  )}
-			</NetlifyForm>		
+		</Form>
+	</div>	
 	)
 }
 

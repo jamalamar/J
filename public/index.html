@@ -39,6 +39,17 @@
     <title>JinX</title>
   </head>
   <body>
+
+    <!-- A little help for the Netlify bots if you're not using a SSG -->
+    <form name="JinxContactForm" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="FirstName" />
+      <input type="text" name="LastName" />
+      <input type="text" name="Phone" />
+      <input type="text" name="Country" />
+      <input type="email" name="Email" />
+      <textarea name="Message"></textarea>
+    </form>
+
     <noscript>Digital Studio & Tech Solutions</noscript>
     <div id="root"></div>
     <!--
