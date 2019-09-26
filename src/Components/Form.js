@@ -1,5 +1,4 @@
 import React from 'react';
-import NetlifyForm from 'react-netlify-form'
 
 import Form from 'react-bootstrap/Form'
 import Row from 'react-bootstrap/Row'
@@ -10,7 +9,7 @@ import Button from 'react-bootstrap/Button'
  	return(
  	
  	<div style={style.formContainer}>
-		<Form style={style.form}>
+		<Form>
 
 			{/*Value set to the same of the Form on Index.html*/}
 		    <input type="hidden" name="form-name" value="JinxContactForm" />
@@ -70,10 +69,7 @@ const style = {
 	  	display: 'flex',
 	  	justifyContent: 'center',
 	  	margin: '4em 0em 9em 0em',
-	 },
-	form: {
-	 	
-	 },
+	 }
 }
 
 export default ContactForm;

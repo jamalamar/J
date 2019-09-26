@@ -19,7 +19,7 @@ function Home () {
 		    <Button variant="primary" as={Link} to='/About'>Learn more</Button>
 		  </p>
 		</Jumbotron>
-	
+		
 	</div>
 	)
 }
