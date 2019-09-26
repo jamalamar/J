@@ -4,6 +4,7 @@ import ContactForm from '../Components/Form'
 
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
+import Button from 'react-bootstrap/Button'
 
 function Contact () {
 	return(
@@ -15,7 +16,7 @@ function Contact () {
 			    <p>
 			      Get in touch and we’ll connect you with the business team nearest you.
 			    </p>
-			    <a href="#form">Contact</a>
+			    <Button variant="light" href="#form">Contact</Button>
 			  </Container>
 			</Jumbotron>
 
@@ -36,13 +37,14 @@ const style = {
     backgroundSize: 'cover',
     padding: '25px',
     textAlign: 'center',
-    padding: '6em 0em 6em 0em',
+    padding: '6em 0em 4em 0em',
     fontSize: '18px',
 	letterSpacing: '0.095em',
 	backgroundColor: '#cccccc',
   },
   title: {
-  	margin: '2em 0em 5em 0em',
+  	fontSize: '50px',
+  	margin: '2em 0em 3em 0em',
   },
   form: {
   	paddingTop: '3em'
