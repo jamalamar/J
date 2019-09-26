@@ -10,7 +10,7 @@ function Home () {
 	<div>
 	
 		<Jumbotron style={style.header}>
-		  <h1 style={style.h1}>Your idea... We make it real!</h1>
+		  <h1 style={style.h1}>Your idea... We make it real</h1>
 		  <p>
 		    We are a digital product studio that transforms product ideas 
 		    into incredible products
