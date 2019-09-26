@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom'
+
 import Form from 'react-bootstrap/Form'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -54,7 +56,7 @@ import Button from 'react-bootstrap/Button'
 		    <Form.Control as="textarea" rows="3" name="Message"/>
 		  </Form.Group>
 
-		  <Button variant="primary" type="submit">
+		  <Button variant="primary" type="submit" as={Link} to="/">
 		    Submit
 		  </Button>
 
