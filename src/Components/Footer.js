@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 function Footer (){
 	return(
@@ -15,7 +16,7 @@ function Footer (){
 		      <div class="col-md-6 mt-md-0 mt-3">
 
 		        {/* Content */}
-		        <h5 class="text-uppercase">JinX</h5><h6>Digital Studio</h6>
+		        <h3 class="text-uppercase">JinX</h3><h6>Digital Studio & Tech Solutions</h6>
 		        <p>All Rights Reserved.</p>
 
 		      </div>
@@ -28,20 +29,20 @@ function Footer (){
 		      <div class="col-md-3 mb-md-0 mb-3">
 
 		        {/* Links */}
-		        <h5 class="text-uppercase">Links</h5>
+		        <h6 class="text-uppercase">Navigation</h6>
 
 		        <ul class="list-unstyled">
 		          <li>
-		            <a href="#!">Link 1</a>
+		            <Link to="/">Home</Link>
 		          </li>
 		          <li>
-		            <a href="#!">Link 2</a>
+		            <Link to="/Work">Work</Link>
 		          </li>
 		          <li>
-		            <a href="#!">Link 3</a>
+		            <Link to="/About">About</Link>
 		          </li>
 		          <li>
-		            <a href="#!">Link 4</a>
+		            <Link to="/Contact">Contact</Link>
 		          </li>
 		        </ul>
 
@@ -52,20 +53,20 @@ function Footer (){
 		      <div class="col-md-3 mb-md-0 mb-3">
 
 		        {/* Links */}
-		        <h5 class="text-uppercase">Links</h5>
+		        <h6 class="text-uppercase">Social Media</h6>
 
 		        <ul class="list-unstyled">
 		          <li>
-		            <a href="#!">Link 1</a>
+		            <a href="https://instagram.com" target="_blank" >Instagram</a>
 		          </li>
 		          <li>
-		            <a href="#!">Link 2</a>
+		            <a href="https://facebook.com" target="_blank" >Facebook</a>
 		          </li>
 		          <li>
-		            <a href="#!">Link 3</a>
+		            <a href="https://linkedin.com" target="_blank" >Linked-In</a>
 		          </li>
 		          <li>
-		            <a href="#!">Link 4</a>
+		            <a href="#!"></a>
 		          </li>
 		        </ul>
 

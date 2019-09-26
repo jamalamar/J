@@ -1,19 +1,50 @@
 import React, {useState} from 'react';
 
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import Container from 'react-bootstrap/Container'
+import Button from 'react-bootstrap/Button'
+
 function Work () {
 	return(
 		<div>
-			<h2 style={style.header}>Our Proyects</h2>
+
+			<Jumbotron fluid style={style.header}>
+			  <Container>
+			    <h1 style={style.title}>We Help Build Incredible Products</h1>
+			    <p>
+			      
+			    </p>
+			    <Button variant="light" href="#form">Contact</Button>
+			  </Container>
+			</Jumbotron>
+
+			<div id="body" style={style.body}>
+				
+			</div>
+		
 		</div>
 	)
 }
 
 const style = {
-  header: {
-    fontSize: '50px',
-    padding: '25px',
-    textAlign: 'center',
-  },
+	header: {
+	    fontSize: '',
+	    backgroundImage: 'url(/Assets/Work-Header.jpg)',
+	    backgroundPosition: 'center',
+	    backgroundRepeat: 'no-repeat',
+	    backgroundSize: 'cover',
+	    padding: '25px',
+	    textAlign: 'center',
+	    padding: '6em 0em 4em 0em',
+	    fontSize: '18px',
+		letterSpacing: '0.095em',
+		backgroundColor: '#cccccc',
+	  },
+	  title: {
+	  	fontSize: '50px',
+	  	margin: '2em 0em 3em 0em',
+	  },
+
 
 }
 
