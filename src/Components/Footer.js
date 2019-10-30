@@ -20,9 +20,34 @@ function Footer (){
 		        <p>All Rights Reserved.</p>
 
 		      </div>
+		      
 		      {/* Grid Column */}
 
 		      <hr class="clearfix w-100 d-md-none pb-3"></hr>
+
+		      {/* Grid Column */}
+		      <div class="col-md-3 mb-md-0 mb-3">
+
+		        {/* Links */}
+		        <h6 class="text-uppercase">Social Media</h6>
+
+		        <ul class="list-unstyled">
+		          <li>
+		            <a href="https://instagram.com" target="_blank" >Instagram (Coming Soon...)</a>
+		          </li>
+		          <li>
+		            <a href="https://facebook.com" target="_blank" >Facebook (Coming Soon...)</a>
+		          </li>
+		          <li>
+		            <a href="https://linkedin.com" target="_blank" >Linked-In (Coming Soon...)</a>
+		          </li>
+		          <li>
+		            <a href="#!"></a>
+		          </li>
+		        </ul>
+
+		      </div>
+		      {/* Grid Column */}
 
 
 		      {/* Grid Column */}
@@ -49,29 +74,10 @@ function Footer (){
 		      </div>
 		      {/* Grid Column */}
 
-		      {/* Grid Column */}
-		      <div class="col-md-3 mb-md-0 mb-3">
 
-		        {/* Links */}
-		        <h6 class="text-uppercase">Social Media</h6>
 
-		        <ul class="list-unstyled">
-		          <li>
-		            <a href="https://instagram.com" target="_blank" >Instagram</a>
-		          </li>
-		          <li>
-		            <a href="https://facebook.com" target="_blank" >Facebook</a>
-		          </li>
-		          <li>
-		            <a href="https://linkedin.com" target="_blank" >Linked-In</a>
-		          </li>
-		          <li>
-		            <a href="#!"></a>
-		          </li>
-		        </ul>
 
-		      </div>
-		      {/* Grid Column */}
+
 
 		    </div>
 		    {/* Grid row */}
