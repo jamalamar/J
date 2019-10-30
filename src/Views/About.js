@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {Link} from 'react-router-dom';
 
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
@@ -14,7 +15,7 @@ function About () {
 			    <p>
 			      
 			    </p>
-			    <Button variant="light" href="#form">Learn More</Button>
+			    <Button as={Link} to='/Contact' variant="dark">Learn More</Button>
 			  </Container>
 			</Jumbotron>
 
